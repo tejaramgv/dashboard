@@ -1,0 +1,53 @@
+/* Add this to your global stylesheet or make sure it's included in your project */
+
+.chart-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  
+  .card {
+    height: 150px;
+    display: flex;
+    align-items: center;
+ 
+    color:#012a2a !important;
+    font-weight: bolder;
+  }
+  .count{
+    color:rgb(222, 73, 73);
+    color:rgb(255, 255, 255);
+    font-size:140%;
+  }
+  
+.total-users {
+    background: linear-gradient(135deg, #2b4360, #f7f9fc); /* Light blue gradient */
+  }
+  
+  .total-posts {
+    background: linear-gradient(135deg, #782020, #fdf6f6); /* Light red gradient */
+  }
+  
+  .users-active {
+    background: linear-gradient(135deg, #6b9a67, #f8fdf5); /* Light green gradient */
+  }
+  
+  .posts-published {
+    background: linear-gradient(135deg, #6f5233, #fff8f2); /* Light orange gradient */
+  }
+
+
+  .card .count::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #fff; /* Same as count number background */
+    top: -15px; /* Adjust to position above count */
+    left: 50%;
+    transform: translateX(-50%);
+  }

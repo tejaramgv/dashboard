@@ -1,0 +1,76 @@
+.root {
+    height: 100vh;
+   
+  }
+  
+  .leftHalf {
+    padding: 10px;
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    background-color:rgba(243, 250, 249, 0.699) !important;
+  }
+  
+  .rightHalf {
+    padding: 16px;
+    display: flex;
+    flex-direction: column !important;
+
+    justify-content: space-around;
+  }
+  
+  .form {
+    width: 70%;
+    margin-top: 16px;
+    border-radius: 10px;
+    padding:10px;
+    background-color: white;
+  }
+  
+  .text {
+    font-family: Italiana;
+font-size: 64px;
+font-weight: bold;
+line-height: 75.39px;
+color: #215870;
+text-align: left;
+
+  }
+  
+  .image {
+    width: 500px;
+    height: 300px;
+    top: 200px;
+    left: 628px;
+    gap: 0px;
+    opacity: 0px;
+    
+  }
+  
+  .login-header {
+    display: flex;
+
+    flex-direction:column;
+ justify-content: center !important;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  
+  .iconButton {
+    margin-right: 8px;
+  }
+  
+.signup-span{
+    font-family: Italiana;
+font-size: 40px;
+font-weight: 400;
+color: #215870;
+line-height: 106.02px;
+text-align: left;
+
+}
+
+
+
+  
